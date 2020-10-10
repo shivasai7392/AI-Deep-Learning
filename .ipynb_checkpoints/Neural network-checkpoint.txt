@@ -1,2 +1,20 @@
 Process of back propagation
 
+Activation func - Increase the dimensionality of data
+
+
+trying to find the optimal values of w1,w2 and b because there are responsible for error
+
+y_pred = x1*w1 + x2*w2 + b
+
+error (E) = (y_pred - y)**2
+
+w1 = w1 - dE/dw1
+
+w2 = w2 - dE/dw2
+
+b = b - dE/db
+
+this process Feed forward of neural network and back propagation repeats until the error is saturated
+
+
